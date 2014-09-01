@@ -17,12 +17,12 @@ Odyssey Content Team Manager is a free WordPress plugin that helps you manage yo
 
 For more information, check out [activateodyssey.com/wordpress](http://activateodyssey.com/wordpress).
 
-This is the first version of the plugin and we need your help to make it better. Please share of your feedback and what you’d like to see in the next release to: [info@anglesmedia.co](mailto:info@anglesmedia.co).
+This is the first version of the plugin and we need your help to make it better. Please share of your feedback and what you'd like to see in the next release to: [info@anglesmedia.co](mailto:info@anglesmedia.co).
 
 Features include:
 
-* Simple Reporting: There is no more need for spending countless hours playing with outdated spreadsheets to track what each team member is working on and how much money you’ve spent so far.
-* Asset Types & Editorial Error Fixes Tracking: visualize where you team is spending the most time and effort. Are you using most of your team’s capacity fixing errors or creating new assets? For the latter, now you can track the types of content you are creating the most for your audience. 
+* Simple Reporting: There is no more need for spending countless hours playing with outdated spreadsheets to track what each team member is working on and how much money you've spent so far.
+* Asset Types & Editorial Error Fixes Tracking: visualize where you team is spending the most time and effort. Are you using most of your team's capacity fixing errors or creating new assets? For the latter, now you can track the types of content you are creating the most for your audience. 
 * Team Management: Add and remove WordPress users to your content team. Manage their hourly rates and assign ideas and tasks.
 * Ideas Backlog: Allow anyone in your organization to propose a new idea to create new pieces of content. Using the ideas backlog you can now have an organize planning process to select which ideas are relevant and reject those that provide the least amount of value to your audience.
 * Task Management: assign tasks to each team member, estimate the effort required to complete it, and track its status.
@@ -35,7 +35,7 @@ Features include:
 
 == Frequently Asked Questions ==
 
-= I installed the plugin but I don’t see anything on top section of the Dashboard, what’s going on? =
+= I installed the plugin but I don't see anything on top section of the Dashboard, what's going on? =
 
 Odyssey CTM only tracks asset types created after all tasks for an ideas are done and the idea itself is published. Once any task with type equal to Editing is completed, the plugin will start tracking the number of editorial error fixes your team as completed.
 
