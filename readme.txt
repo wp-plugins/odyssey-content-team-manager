@@ -1,5 +1,5 @@
 === Odyssey Content Team Manager ===
-Contributors: milanmk
+Contributors: milanmk, martinamc
 Donate link: http://activateodyssey.com/
 Tags: content marketing, editorial, team management, planning, content planning, task management, backlog, ideas, production management, angles media, odyssey
 
