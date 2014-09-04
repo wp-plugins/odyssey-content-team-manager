@@ -4,7 +4,7 @@ Donate link: http://activateodyssey.com/
 Tags: content marketing, editorial, team management, planning, content planning, task management, backlog, ideas, production management, angles media, odyssey
 
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -49,7 +49,7 @@ The Odyssey content process works as follows:
 
 = How do I contribute to make this plugin better? =
 
-Your continued use, referrals, and feedback are super important to us. Contact us anytime to discuss any ideas you might have. Our email is info@anglesmedia.co. Thank you!  
+Your continued use, referrals, and feedback are super important to us. Contact us anytime to discuss any ideas you might have. Our email is [info@anglesmedia.co](mailto:info@anglesmedia.co). Thank you!  
 
 == Screenshots ==
 
