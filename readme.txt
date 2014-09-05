@@ -20,6 +20,7 @@ For more information, check out [activateodyssey.com/wordpress](http://activateo
 This is the first version of the plugin and we need your help to make it better. Please share of your feedback and what you'd like to see in the next release by sending an email to: [info@anglesmedia.co](mailto:info@anglesmedia.co).
 
 Features include:
+
 * Simple Reporting: There is no longer a need to spend countless hours playing with outdated spreadsheets to track what each team member is working on and how much money you've spent so far.
 * Asset Types & Editorial Error Fixes Tracking: visualize where you team is spending the most time and effort. Are you using most of your team's capacity fixing errors or creating new assets? For the latter, now you can track the types of content you are creating the most for your audience. 
 * Team Management: Add and remove WordPress users to your content team. Manage their hourly rates and assign ideas and tasks.
