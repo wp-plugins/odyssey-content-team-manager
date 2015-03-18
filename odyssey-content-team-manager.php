@@ -1,11 +1,11 @@
 <?php
 /*
-	Plugin Name: Odyssey Content Team Manager
-	Plugin URI:  http://activateodyssey.com/
+	Plugin Name: Contenido Team Manager
+	Plugin URI:  http://conteni.do
 	Description: Plugin that helps you manage your team, production costs, and tasks so you can create great content for your audience without exceeding your budget.
-	Version:     1.0
-	Author:      Milan Kaneria
-	Author URI:  http://brandintellect.in/?OdysseyCTM
+	Version:     1.1
+	Author:      Angles Media Corp.
+	Author URI:  http://www.conteni.do
 */
 
 
@@ -29,10 +29,10 @@ if (!class_exists('OdysseyCTM'))
 
 		function __construct()
 		{
-			$this->TextDomain = 'OdysseyCTM';
+			$this->TextDomain = 'Contenido';
 			$this->PluginFile = __FILE__;
 			$this->PluginURL = plugin_dir_url(__FILE__);
-			$this->PluginName = 'Odyssey Content Team Manager';
+			$this->PluginName = 'Contenido Team Manager';
 
 			if (self::$Instance)
 			{
@@ -120,7 +120,7 @@ if (!class_exists('OdysseyCTM'))
 
 		function ActionLinks($Links)
 		{
-			$Link = '<a href="admin.php?page=OdysseyCTM">'.__('Dashboard', $this->TextDomain).'</a>';
+			$Link = '<a href="admin.php?page=Contenido">'.__('Dashboard', $this->TextDomain).'</a>';
 
 			array_push($Links, $Link);
 
@@ -184,7 +184,7 @@ if (!class_exists('OdysseyCTM'))
 
 		function AdminMenu()
 		{
-			$AdminDashboardHook = add_menu_page($this->PluginName, 'Odyssey CTM', 'read', 'OdysseyCTM', array($this, 'AdminDashboard'), $this->PluginURL.'includes/icon.png');
+			$AdminDashboardHook = add_menu_page($this->PluginName, 'Contenido', 'read', 'Contenido', array($this, 'AdminDashboard'), $this->PluginURL.'includes/icon.png');
 
 			add_action("admin_print_scripts-$AdminDashboardHook", array($this, 'AdminPrintScripts'));
 		}
@@ -313,7 +313,7 @@ if (!class_exists('OdysseyCTM'))
 					<div class="col-lg-6">
 						<div class="row">
 							<div class="col-md-12">
-								<h2><img src="http://activateodyssey.com/wp-content/uploads/2014/07/od-logo.png" alt="Odyssey"></h2>
+								<h2><img src="http://conteni.do/wp-content/uploads/2015/01/logocursive_031.png" alt="Contenido Team Manager"></h2>
 							</div>
 						</div>
 					</div>
@@ -546,7 +546,7 @@ if (!class_exists('OdysseyCTM'))
 									</section>
 									<!-- Modal Add-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1a" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -628,7 +628,7 @@ if (!class_exists('OdysseyCTM'))
 									<!-- modal -->
 									<!-- Modal Edit-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -713,7 +713,7 @@ if (!class_exists('OdysseyCTM'))
 									</div>
 									<!-- Modal Add-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1b" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -783,7 +783,7 @@ if (!class_exists('OdysseyCTM'))
 									<!-- modal -->
 									<!-- Modal Edit-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1c" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -798,7 +798,7 @@ if (!class_exists('OdysseyCTM'))
 									<!-- modal -->
 									<!-- Modal Propose-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1f" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -891,7 +891,7 @@ if (!class_exists('OdysseyCTM'))
 										</div>
 										<!-- Modal Add-->
 										<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1e" class="modal fade">
-											<div class="modal-dialog">
+											<div class="modal-dialog" id= "contenido-modal">
 												<div class="modal-content">
 													<div class="modal-header">
 														<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -951,7 +951,7 @@ if (!class_exists('OdysseyCTM'))
 										<!-- modal -->
 										<!-- Modal Edit-->
 										<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-1d" class="modal fade">
-											<div class="modal-dialog">
+											<div class="modal-dialog" id= "contenido-modal">
 												<div class="modal-content">
 													<div class="modal-header">
 														<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
@@ -1048,7 +1048,7 @@ if (!class_exists('OdysseyCTM'))
 									</section>
 									<!-- Modal Edit-->
 									<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal-myb" class="modal fade">
-										<div class="modal-dialog">
+										<div class="modal-dialog" id= "contenido-modal">
 											<div class="modal-content">
 												<div class="modal-header">
 													<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
