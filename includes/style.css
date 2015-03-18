@@ -2113,6 +2113,11 @@ ul.inbox-pagination li {
     font-family: 'Open Sans',sans-serif;
 }
 
+#contenido-modal {
+    left: 0px;
+
+}
+
 .compose-mail {
     width: 100%;
     display: inline-block;
